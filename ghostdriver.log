@@ -1,0 +1,48 @@
+[INFO  - 2020-10-09T07:18:20.636Z] GhostDriver - Main - running on port 58903
+[INFO  - 2020-10-09T07:18:20.956Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2020-10-09T07:18:20.956Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.customHeaders:  - {}
+[INFO  - 2020-10-09T07:18:20.957Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2020-10-09T07:18:20.957Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9c5c0980-09ff-11eb-9fae-b53cfe864334
+[ERROR - 2020-10-09T07:18:21.305Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.siteName.startsWith("mena")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-09T07:18:21.305Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - stack:
+  p (https://jp.global.nba.com/frags/meta.js:1)
+  c (https://jp.global.nba.com/frags/meta.js:1)
+  (anonymous function) (https://jp.global.nba.com/frags/meta.js:1)
+  t (https://jp.global.nba.com/frags/meta.js:1)
+  (anonymous function) (https://jp.global.nba.com/frags/meta.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-09T07:18:21.332Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-09T07:18:21.332Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - stack:
+  loadScript (https://jp.global.nba.com/playerindex/:237)
+  _loadScript (https://jp.global.nba.com/playerindex/:237)
+  AdRefresh (https://jp.global.nba.com/playerindex/:237)
+  _createModuleInstance (https://jp.global.nba.com/playerindex/:237)
+  (anonymous function) (https://jp.global.nba.com/playerindex/:237)
+  forEach (:0)
+  _init (https://jp.global.nba.com/playerindex/:237)
+  DUX (https://jp.global.nba.com/playerindex/:237)
+  (anonymous function) (https://jp.global.nba.com/playerindex/:246)
+  __webpack_require__ (https://jp.global.nba.com/playerindex/:237)
+  (anonymous function) (https://jp.global.nba.com/playerindex/:237)
+  __webpack_require__ (https://jp.global.nba.com/playerindex/:237)
+  (anonymous function) (https://jp.global.nba.com/playerindex/:237)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-09T07:18:21.461Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - msg: TypeError: Invalid attempt to spread non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2020-10-09T07:18:21.461Z] Session [9c5c0980-09ff-11eb-9fae-b53cfe864334] - page.onError - stack:
+  (anonymous function) (https://www.sportingnews.com/rebuild-beta-assets/nba-fragments/js/body.e41f142001.js:55)
+  v (https://www.sportingnews.com/rebuild-beta-assets/nba-fragments/js/body.e41f142001.js:55)
+  ./resources/views/fragments/body.js (https://www.sportingnews.com/rebuild-beta-assets/nba-fragments/js/body.e41f142001.js:55)
+  n (https://www.sportingnews.com/rebuild-beta-assets/nba-fragments/js/body.e41f142001.js:1)
+  (anonymous function) (https://www.sportingnews.com/rebuild-beta-assets/nba-fragments/js/body.e41f142001.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2020-10-09T07:18:57.117Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
